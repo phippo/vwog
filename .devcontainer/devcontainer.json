@@ -57,5 +57,5 @@
     }
   },
 
-  "postCreateCommand": "chmod 700 ~/.ssh 2>/dev/null && chmod 600 ~/.ssh/* 2>/dev/null || true && mkdir -p ~/.config/git && printf '[safe]\\n    directory = /workspace\\n[init]\\n    defaultBranch = main\\n' > ~/.config/git/config && echo '✅ Persistent volumes ready!' && hugo version && claude --version"
+  "postCreateCommand": "chmod 700 ~/.ssh 2>/dev/null && chmod 600 ~/.ssh/* 2>/dev/null || true && mkdir -p ~/.config/git && printf '[safe]\\n    directory = /workspace\\n' > ~/.config/git/config && echo '✅ Persistent volumes ready!' && hugo version && claude --version"
 }
