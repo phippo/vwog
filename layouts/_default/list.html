@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<section class="section">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ range .Pages }}
+  <article class="card">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ with .Params.status }}<span class="badge badge--{{ . }}">{{ . }}</span>{{ end }}
+    {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "02.01.2006" }}</time>{{ end }}
+    <p>{{ .Summary }}</p>
+  </article>
+  {{ end }}
+</section>
+
+{{ end }}

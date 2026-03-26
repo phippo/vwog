@@ -1,0 +1,61 @@
+{
+  "name": "WVOG Website - Minimal",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "TZ": "Europe/Berlin"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropics.claude-code",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "redhat.vscode-yaml",
+        "be5invis.toml"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[yaml]": {
+          "editor.defaultFormatter": "redhat.vscode-yaml"
+        },
+        "[toml]": {
+          "editor.defaultFormatter": "be5invis.toml"
+        },
+        "redhat.telemetry.enabled": false
+      }
+    }
+  },
+  "containerEnv": {
+    "NODE_OPTIONS": "--max-old-space-size=4096",
+    "CLAUDE_CONFIG_DIR": "/home/node/.claude"
+  },
+  "remoteUser": "node",
+  "workspaceFolder": "/workspace",
+
+  "workspaceMount": "source=C:\\Users\\phili\\Documents\\DevEnv\\wvog,target=/workspace,type=bind,consistency=delegated",
+
+  "mounts": [
+    "source=C:\\Users\\phili\\Documents\\DevEnv\\.ssh,target=/home/node/.ssh,type=bind,consistency=cached",
+    "source=C:\\Users\\phili\\Documents\\DevEnv\\.gitconfig,target=/home/node/.gitconfig,type=bind,consistency=cached",
+    "source=wvog-bash-history,target=/commandhistory,type=volume",
+    "source=wvog-claude-config,target=/home/node/.claude,type=volume",
+    "source=wvog-npm-cache,target=/home/node/.npm,type=volume",
+    "type=bind,source=C:\\Users\\phili\\OneDrive - solve22 GmbH\\S22-Projekte\\setup-wvog,target=/workspace/project-data,consistency=cached",
+    "type=bind,source=C:\\Users\\phili\\SynologyDrive\\SynHomeDrive\\Obsidian-Vaults\\Phils-Knowledge-Base_SYN,target=/workspace/knowledge-base,readonly",
+    "type=bind,source=C:\\Users\\phili\\SynologyDrive\\SynHomeDrive\\Obsidian-Vaults\\Phils-Knowledge-Base_SYN\\05-Produkte\\wvog,target=/workspace/knowledge-base/05-Produkte/wvog,consistency=cached",
+    "type=bind,source=C:\\Users\\phili\\SynologyDrive\\SynHomeDrive\\Obsidian-Vaults\\Phils-Knowledge-Base_SYN\\04-System\\Claude-Workspace,target=/workspace/knowledge-base/04-System/Claude-Workspace,consistency=cached"
+  ],
+
+  "forwardPorts": [1313],
+  "portsAttributes": {
+    "1313": {
+      "label": "Hugo Server",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "postCreateCommand": "chmod 700 ~/.ssh 2>/dev/null && chmod 600 ~/.ssh/* 2>/dev/null || true && mkdir -p ~/.config/git && printf '[safe]\\n    directory = /workspace\\n[init]\\n    defaultBranch = main\\n' > ~/.config/git/config && echo '✅ Persistent volumes ready!' && hugo version && claude --version"
+}

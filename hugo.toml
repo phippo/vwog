@@ -1,0 +1,35 @@
+baseURL = 'https://vor-ort-gestalten.de/'
+languageCode = 'de'
+defaultContentLanguage = 'de'
+title = 'Vor Ort Gestalten'
+
+[params]
+  description = 'Transparente Gemeinderatsarbeit für Althegnenberg & Hörbach'
+
+summaryLength = 30
+
+[menus]
+  [[menus.main]]
+    name = 'Start'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Themen'
+    pageRef = '/themen'
+    weight = 20
+  [[menus.main]]
+    name = 'Aktuelles'
+    pageRef = '/aktuelles'
+    weight = 30
+  [[menus.main]]
+    name = 'Team'
+    pageRef = '/team'
+    weight = 40
+  [[menus.main]]
+    name = 'Mitmachen'
+    pageRef = '/mitmachen'
+    weight = 50
+  [[menus.main]]
+    name = 'Kontakt'
+    pageRef = '/kontakt'
+    weight = 60

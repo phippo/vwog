@@ -1,0 +1,82 @@
+{{ define "main" }}
+
+{{/* 1. Hero */}}
+<section class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}<p class="hero__subtitle">{{ . }}</p>{{ end }}
+  {{ with .Params.cta }}
+  <a href="{{ .url }}" class="btn btn--primary">{{ .text }}</a>
+  {{ end }}
+</section>
+
+{{/* 2. Aktuelle Themen */}}
+{{ with site.GetPage "/themen" }}
+{{ $themen := .Pages.ByWeight | first 3 }}
+{{ if $themen }}
+<section class="section">
+  <h2>Aktuelle Themen</h2>
+  <div class="card-grid">
+    {{ range $themen }}
+    <article class="card">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Params.status }}<span class="badge badge--{{ . }}">{{ . }}</span>{{ end }}
+      <p>{{ .Summary | plainify | truncate 150 }}</p>
+    </article>
+    {{ end }}
+  </div>
+  <a href="{{ .RelPermalink }}">Alle Themen →</a>
+</section>
+{{ end }}
+{{ end }}
+
+{{/* 3. Neueste Updates */}}
+{{ with site.GetPage "/aktuelles" }}
+{{ $updates := .Pages.ByDate.Reverse | first 3 }}
+{{ if $updates }}
+<section class="section">
+  <h2>Aktuelles</h2>
+  {{ range $updates }}
+  <article class="update">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Summary | plainify | truncate 150 }}</p>
+  </article>
+  {{ end }}
+  <a href="{{ .RelPermalink }}">Alle Updates →</a>
+</section>
+{{ end }}
+{{ end }}
+
+{{/* 4. Team */}}
+{{ with site.GetPage "/team" }}
+{{ $team := .Pages.ByWeight }}
+{{ if $team }}
+<section class="section">
+  <h2>Unser Team</h2>
+  <div class="card-grid">
+    {{ range $team }}
+    <article class="card card--person">
+      <h3>{{ .Title }}</h3>
+      {{ with .Params.rolle }}<p class="card__rolle">{{ . }}</p>{{ end }}
+      <p>{{ .Summary | plainify | truncate 150 }}</p>
+      <a href="{{ .RelPermalink }}">Mehr →</a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{/* 5. Mitmachen */}}
+<section class="section section--cta">
+  <h2>Mitmachen</h2>
+  <p>Du willst mitreden, Feedback geben oder einfach informiert bleiben?</p>
+  <div class="cta-group">
+    {{ with .Site.Params.whatsapp_url }}
+    <a href="{{ . }}" class="btn btn--whatsapp">WhatsApp-Community</a>
+    {{ end }}
+    <a href="{{ "/kontakt" | relURL }}" class="btn btn--secondary">Kontakt aufnehmen</a>
+  </div>
+</section>
+
+{{ end }}
