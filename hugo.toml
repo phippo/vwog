@@ -8,6 +8,9 @@ title = 'Vor Ort Gestalten'
 
 summaryLength = 30
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [menus]
   [[menus.main]]
     name = 'Start'
