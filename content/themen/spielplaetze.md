@@ -19,4 +19,4 @@ Bestandsaufnahme läuft. Erste Gespräche mit Familien haben stattgefunden.
 
 ## Beteiligung
 
-Welcher Spielplatz ist euch wichtig? Schreibt uns über die WhatsApp-Community oder das Kontaktformular.
+Welcher Spielplatz ist euch wichtig? Schreibt uns über die [Kontaktseite](/kontakt).

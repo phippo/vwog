@@ -7,15 +7,9 @@ menu: false
 
 Es gibt viele Wege — such dir den aus, der zu dir passt.
 
-### WhatsApp-Community
-
-Der schnellste Weg, informiert zu bleiben und mitzureden. Kein Spam, kein Gruppenzwang.
-
-<!-- TODO: WhatsApp-Link einfügen -->
-
 ### Feedback geben
 
-Du hast eine Idee, eine Frage oder möchtest auf etwas aufmerksam machen? Schreib uns über das [Kontaktformular](/kontakt).
+Du hast eine Idee, eine Frage oder möchtest auf etwas aufmerksam machen? Schreib uns über die [Kontaktseite](/kontakt).
 
 ### Vor Ort dabei sein
 

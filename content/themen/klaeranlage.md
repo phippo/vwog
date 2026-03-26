@@ -52,7 +52,7 @@ Wer die Zusammenhänge kennt, kann:
 
 ## Beteiligung
 
-Hast du Fragen zu den Kosten oder zur Berechnung? Melde dich über die WhatsApp-Community oder das Kontaktformular.
+Hast du Fragen zu den Kosten oder zur Berechnung? Melde dich über die [Kontaktseite](/kontakt).
 
 ---
 

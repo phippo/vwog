@@ -72,10 +72,8 @@
   <h2>Mitmachen</h2>
   <p>Du willst mitreden, Feedback geben oder einfach informiert bleiben?</p>
   <div class="cta-group">
-    {{ with .Site.Params.whatsapp_url }}
-    <a href="{{ . }}" class="btn btn--whatsapp">WhatsApp-Community</a>
-    {{ end }}
-    <a href="{{ "/kontakt" | relURL }}" class="btn btn--secondary">Kontakt aufnehmen</a>
+    <a href="{{ "/kontakt" | relURL }}" class="btn btn--primary">Kontakt aufnehmen</a>
+    <a href="{{ "/mitmachen" | relURL }}" class="btn btn--secondary">Mehr erfahren</a>
   </div>
 </section>
 

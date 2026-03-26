@@ -56,4 +56,4 @@ Von 60 Wohnungen werden voraussichtlich **10–20 durch heutige Althegnenberger*
 
 ## Beteiligung
 
-Was denkst du über das Projekt? Melde dich über die WhatsApp-Community oder das Kontaktformular.
+Was denkst du über das Projekt? Melde dich über die [Kontaktseite](/kontakt).

@@ -36,4 +36,4 @@ Vergleichbare Gemeinden zeigen, wie stark heutige Entscheidungen die nächsten J
 
 ## Beteiligung
 
-Was wünscht ihr euch für die Ortsmitte? Melde dich über die WhatsApp-Community oder das Kontaktformular.
+Was wünscht ihr euch für die Ortsmitte? Melde dich über die [Kontaktseite](/kontakt).
