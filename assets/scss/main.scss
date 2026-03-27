@@ -119,6 +119,7 @@ main {
 
   h1 { font-size: 1.75rem; color: $color-primary; }
   &__subtitle { font-size: 1.1rem; color: $color-text-light; margin-top: 0.5rem; }
+  &__claim { font-size: 0.95rem; font-weight: 600; color: $color-primary; margin-top: 0.75rem; }
   .btn { margin-top: 1.5rem; }
 }
 

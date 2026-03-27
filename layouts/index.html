@@ -4,6 +4,7 @@
 <section class="hero">
   <h1>{{ .Title }}</h1>
   {{ with .Params.subtitle }}<p class="hero__subtitle">{{ . }}</p>{{ end }}
+  {{ with .Params.claim }}<p class="hero__claim">{{ . }}</p>{{ end }}
   {{ with .Params.cta }}
   <a href="{{ .url }}" class="btn btn--primary">{{ .text }}</a>
   {{ end }}
@@ -14,7 +15,7 @@
 {{ $themen := .Pages.ByWeight | first 3 }}
 {{ if $themen }}
 <section class="section">
-  <h2>Aktuelle Themen</h2>
+  <h2>Was uns gerade beschäftigt</h2>
   <div class="card-grid">
     {{ range $themen }}
     <article class="card">
@@ -34,7 +35,7 @@
 {{ $updates := .Pages.ByDate.Reverse | first 3 }}
 {{ if $updates }}
 <section class="section">
-  <h2>Aktuelles</h2>
+  <h2>Aktuelles aus dem Gemeinderat</h2>
   {{ range $updates }}
   <article class="update">
     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
@@ -47,33 +48,19 @@
 {{ end }}
 {{ end }}
 
-{{/* 4. Team */}}
-{{ with site.GetPage "/team" }}
-{{ $team := .Pages.ByWeight }}
-{{ if $team }}
+{{/* 4. Team — kompakt, nur Gemeinderäte + Verweis */}}
 <section class="section">
-  <h2>Unser Team</h2>
-  <div class="card-grid">
-    {{ range $team }}
-    <article class="card card--person">
-      <h3>{{ .Title }}</h3>
-      {{ with .Params.rolle }}<p class="card__rolle">{{ . }}</p>{{ end }}
-      <p>{{ .Summary | plainify | truncate 150 }}</p>
-      <a href="{{ .RelPermalink }}">Mehr →</a>
-    </article>
-    {{ end }}
-  </div>
+  <h2>Wer steckt dahinter?</h2>
+  <p>Philipp und Sascha vertreten unsere Arbeit im Gemeinderat. Dahinter steht ein Team aus zehn Menschen mit unterschiedlichen Erfahrungen und Blickwinkeln.</p>
+  <a href="{{ "/team" | relURL }}" class="btn btn--secondary">Das Team kennenlernen</a>
 </section>
-{{ end }}
-{{ end }}
 
 {{/* 5. Mitmachen */}}
 <section class="section section--cta">
-  <h2>Mitmachen</h2>
-  <p>Du willst mitreden, Feedback geben oder einfach informiert bleiben?</p>
+  <h2>Deine Meinung zählt</h2>
+  <p>Du hast eine Frage, eine Beobachtung oder willst etwas beitragen? Wir freuen uns über jede Rückmeldung.</p>
   <div class="cta-group">
     <a href="{{ "/kontakt" | relURL }}" class="btn btn--primary">Kontakt aufnehmen</a>
-    <a href="{{ "/mitmachen" | relURL }}" class="btn btn--secondary">Mehr erfahren</a>
   </div>
 </section>
 

@@ -1,7 +1,8 @@
 ---
 title: "Vor Ort Gestalten"
-subtitle: "Hier siehst du, was in unserer Gemeinde passiert – damit du dir eine eigene Meinung bilden kannst."
+subtitle: "Was passiert in Althegnenberg & Hörbach? Wir machen Gemeinderatsarbeit sichtbar — verständlich, aktuell und nachvollziehbar."
+claim: "Klarheit statt Gerüchte. Fakten statt Bauchgefühl."
 cta:
-  text: "Kontakt aufnehmen"
-  url: "/kontakt"
+  text: "Themen ansehen"
+  url: "/themen"
 ---
