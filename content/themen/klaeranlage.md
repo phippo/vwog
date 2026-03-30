@@ -8,9 +8,21 @@ description: "Beispielrechnung und Hintergründe zu den Kosten der Kläranlage �
 
 Die Kläranlage in Althegnenberg steht vor einer größeren Investition. Rund um das Thema kursieren unterschiedliche Zahlen. Hier versuchen wir, die Zusammenhänge verständlich zu machen.
 
-## Aktueller Stand
+## Stand zum Zeitpunkt der Kommunalwahl (Frühjahr 2026)
 
-Es wird derzeit von **rund 5.000 Euro pro Haushalt im Durchschnitt** gesprochen. Diese Summe setzt sich aus zwei Teilen zusammen:
+Bereits im Haushalt 2025 hat die Gemeinde für die Kläranlage **4 Millionen Euro für 2026** und **3,4 Millionen Euro für 2027** eingeplant. Das zeigt: Das Projekt ist konkret und die Investition steht bevor.
+
+Im Wahlkampf kursierten sehr unterschiedliche Zahlen zur durchschnittlichen Haushaltsbelastung:
+
+| Quelle                            | Genannte Spanne                                                          |
+| --------------------------------- | ------------------------------------------------------------------------ |
+| 1. Bürgermeister (Rainer Spicker) | 2.300 bis 2.800 € (mit dem Hinweis, nicht festgenagelt werden zu wollen) |
+| 3. Bürgermeister (Peter Neubauer) | 8.000 bis 10.000 €                                                       |
+| Unsere Beispielrechnung           | rund 5.000 €                                                             |
+
+Diese Bandbreite zeigt, warum Transparenz bei diesem Thema wichtig ist. Unsere Beispielrechnung unten erklärt, wie solche Zahlen entstehen und warum der Einzelfall stark vom Durchschnitt abweichen kann.
+
+Die 5.000 Euro unserer Beispielrechnung setzen sich aus zwei Teilen zusammen: Diese Summe setzt sich aus zwei Teilen zusammen:
 
 1. **Ca. 2.500 € über das Eigentum** (Verbesserungsbeitrag)
 2. **Ca. 2.500 € über die Abwassergebühr** (zusätzlich zu den laufenden Gebühren)
@@ -31,11 +43,11 @@ Entscheidend ist nicht nur die Gesamtsumme, sondern **wie die Kosten verteilt we
 
 > Diese Zahlen dienen der Einordnung — sie sind keine Beschlusslage und keine Prognose.
 
-| Position | Betrag |
-|---|---|
-| Gesamtkosten (Annahme) | 8.000.000 € |
-| Anteil Gemeinde (25 %) | 2.000.000 € |
-| Fördermittel | 1.500.000 € |
+| Position                   | Betrag          |
+| -------------------------- | --------------- |
+| Gesamtkosten (Annahme)     | 8.000.000 €     |
+| Anteil Gemeinde (25 %)     | 2.000.000 €     |
+| Fördermittel               | 1.500.000 €     |
 | **Verbleibend zur Umlage** | **4.500.000 €** |
 
 Bei einer hälftigen Aufteilung:
@@ -46,6 +58,7 @@ Bei einer hälftigen Aufteilung:
 ## Warum Transparenz hier wichtig ist
 
 Wer die Zusammenhänge kennt, kann:
+
 - Aussagen besser einordnen
 - Gerüchte von Fakten trennen
 - Sich eine eigene, fundierte Meinung bilden
@@ -56,4 +69,4 @@ Hast du Fragen zu den Kosten oder zur Berechnung? Melde dich über die [Kontakts
 
 ---
 
-*Diese Seite wird aktualisiert, sobald offizielle Zahlen und Modelle vorliegen.*
+_Stand: vor der Kommunalwahl März 2026. Wird aktualisiert, sobald neue Beschlüsse oder offizielle Zahlen vorliegen._
