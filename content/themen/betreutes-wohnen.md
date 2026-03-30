@@ -6,11 +6,11 @@ weight: 40
 description: "Wer zieht tatsächlich in die geplante Anlage? Eine datenbasierte Einordnung."
 ---
 
-In Althegnenberg ist der Bau einer Anlage für Betreutes Wohnen mit rund **60 Wohneinheiten** geplant. Das wirft berechtigte Fragen auf: Wer wird dort wohnen? Reicht der Bedarf aus dem Ort? Oder ziehen vor allem Menschen von außerhalb zu?
+In Althegnenberg ist der Bau einer Anlage für Betreutes Wohnen geplant. Das wirft berechtigte Fragen auf: Wer wird dort wohnen? Reicht der Bedarf aus dem Ort? Oder ziehen vor allem Menschen von außerhalb zu?
 
-## Aktueller Stand
+## Stand zum Zeitpunkt der Kommunalwahl (Frühjahr 2026)
 
-Das Projekt befindet sich in der Planungsphase. Eine zentrale Frage ist, ob die Anlage auch Kleingewerbe (Café, Physiotherapie) enthalten soll — das hat direkte Auswirkungen auf die Lebensqualität in der Ortsmitte.
+Geplant sind rund **60 Wohneinheiten**. Das Projekt befand sich in der Planungsphase. Eine zentrale offene Frage war, ob die Anlage auch Kleingewerbe (Café, Physiotherapie) enthalten soll — das hätte direkte Auswirkungen auf die Lebensqualität in der Ortsmitte.
 
 ## Datenbasierte Einordnung
 
