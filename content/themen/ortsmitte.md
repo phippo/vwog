@@ -10,7 +10,7 @@ Die Ortsmitte entscheidet darüber, ob man bleibt, sich begegnet oder einfach nu
 
 ## Aktueller Stand
 
-Die Planungen zur Ortsmitte hängen eng mit dem Projekt Betreutes Wohnen zusammen. Aktuell gibt es unterschiedliche Einschätzungen darüber, ob neben Wohnungen auch **Kleingewerbe** (Café, Physiotherapie, Dienstleister) in die Ortsmitte gehört.
+Die Planungen zur Ortsmitte hängen eng mit dem Projekt [Betreutes Wohnen](/themen/betreutes-wohnen/) zusammen. Aktuell gibt es unterschiedliche Einschätzungen darüber, ob neben Wohnungen auch **Kleingewerbe** (Café, Physiotherapie, Dienstleister) in die Ortsmitte gehört.
 
 Kritisch ist, dass der Verzicht auf Kleingewerbe einen wichtigen Baustein für Alltag, kurze Wege und Begegnung im Ort entfernen würde.
 
@@ -22,7 +22,7 @@ Eine Ortsmitte braucht Gründe, warum Menschen bleiben:
 - **Begegnung** — Orte, an denen man sich trifft
 - **Leben** — nicht nur Wohnraum, sondern Infrastruktur
 
-Beim Thema Betreutes Wohnen geht es deshalb nicht nur um Gebäude, sondern um die Frage: **Wie soll Althegnenberg in Zukunft aussehen?**
+Beim Thema [Betreutes Wohnen](/themen/betreutes-wohnen/) geht es deshalb nicht nur um Gebäude, sondern um die Frage: **Wie soll Althegnenberg in Zukunft aussehen?**
 
 ## Von anderen Orten lernen
 

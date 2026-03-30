@@ -10,7 +10,7 @@ In Althegnenberg ist der Bau einer Anlage für Betreutes Wohnen geplant. Das wir
 
 ## Stand zum Zeitpunkt der Kommunalwahl (Frühjahr 2026)
 
-Geplant sind rund **60 Wohneinheiten**. Das Projekt befand sich in der Planungsphase. Eine zentrale offene Frage war, ob die Anlage auch Kleingewerbe (Café, Physiotherapie) enthalten soll — das hätte direkte Auswirkungen auf die Lebensqualität in der Ortsmitte.
+Geplant sind rund **60 Wohneinheiten**. Das Projekt befand sich in der Planungsphase. Eine zentrale offene Frage war, ob die Anlage auch Kleingewerbe (Café, Physiotherapie) enthalten soll — das hätte direkte Auswirkungen auf die Lebensqualität in der [Ortsmitte](/themen/ortsmitte/).
 
 ## Datenbasierte Einordnung
 
