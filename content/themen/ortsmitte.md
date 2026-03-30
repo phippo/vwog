@@ -1,7 +1,6 @@
 ---
 title: "Ortsmitte"
 date: 2026-01-02
-status: "offen"
 weight: 50
 description: "Die Ortsmitte entscheidet, ob man bleibt, sich begegnet oder einfach nur durchfährt."
 ---

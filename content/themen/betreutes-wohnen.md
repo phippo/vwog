@@ -1,7 +1,6 @@
 ---
 title: "Betreutes Wohnen"
 date: 2026-01-23
-status: "offen"
 weight: 40
 description: "Wer zieht tatsächlich in die geplante Anlage? Eine datenbasierte Einordnung."
 ---

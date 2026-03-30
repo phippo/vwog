@@ -1,10 +1,18 @@
 ---
 title: "Kläranlage"
 date: 2026-02-06
-status: "in-arbeit"
 weight: 30
 description: "Beispielrechnung und Hintergründe zu den Kosten der Kläranlage — transparent zum Mitdenken."
 ---
+
+|                                    |                    |
+| ---------------------------------- | ------------------ |
+| **Geplante Kosten (Stand 2025)**   | 7,4 Mio. €         |
+| **Davon Gemeinde**                 | ca. 1,2 Mio. €     |
+| **Fördermittel**                   | ca. 1,5 Mio. €     |
+| **Belastung Bürgerinnen & Bürger** | ca. 4,7 Mio. €     |
+| **Ist-Kosten**                     | noch nicht bekannt |
+| **Stand**                          | 2025               |
 
 Die Kläranlage in Althegnenberg steht vor einer größeren Investition. Rund um das Thema kursieren unterschiedliche Zahlen. Hier versuchen wir, die Zusammenhänge verständlich zu machen.
 
