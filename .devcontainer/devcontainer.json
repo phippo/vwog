@@ -38,8 +38,7 @@
   "workspaceMount": "source=C:\\Users\\phili\\Documents\\DevEnv\\wvog,target=/workspace,type=bind,consistency=delegated",
 
   "mounts": [
-    "source=C:\\Users\\phili\\Documents\\DevEnv\\.ssh,target=/home/node/.ssh,type=bind,consistency=cached",
-    "source=C:\\Users\\phili\\Documents\\DevEnv\\.gitconfig,target=/home/node/.gitconfig,type=bind,consistency=cached",
+    "source=C:\\Users\\phili\\.gitconfig,target=/home/node/.gitconfig,type=bind,consistency=cached",
     "source=wvog-bash-history,target=/commandhistory,type=volume",
     "source=wvog-claude-config,target=/home/node/.claude,type=volume",
     "source=wvog-npm-cache,target=/home/node/.npm,type=volume",
@@ -57,5 +56,5 @@
     }
   },
 
-  "postCreateCommand": "chmod 700 ~/.ssh 2>/dev/null && chmod 600 ~/.ssh/* 2>/dev/null || true && mkdir -p ~/.config/git && printf '[safe]\\n    directory = /workspace\\n' > ~/.config/git/config && echo '✅ Persistent volumes ready!' && hugo version && claude --version"
+  "postCreateCommand": "bash .devcontainer/post-create.sh"
 }
