@@ -13,6 +13,7 @@ project-data/
 
 # Temp / Referenz-Dateien
 /tmp/
+DevEnv_*.txt
 
 # Editor
 *.swp

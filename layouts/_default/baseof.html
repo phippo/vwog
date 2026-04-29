@@ -9,11 +9,18 @@
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>
 <body>
+  {{ if .Site.Params.maintenance }}
+  <main style="max-width:40rem;margin:4rem auto;padding:0 1.5rem;text-align:center;">
+    <h1 style="color:#2b5a3d;">Vor Ort Gestalten</h1>
+    <p style="font-size:1.1rem;color:#555;margin-top:1rem;">Diese Seite wird gerade aktualisiert.<br>Wir sind bald wieder da.</p>
+  </main>
+  {{ else }}
   {{ partial "header.html" . }}
   <main>
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
   <script src="{{ "js/nav.js" | relURL }}"></script>
+  {{ end }}
 </body>
 </html>
